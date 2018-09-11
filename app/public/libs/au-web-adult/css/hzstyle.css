@@ -1,0 +1,201 @@
+/* 
+html5doctor.com Reset Stylesheet
+v1.4.1 
+2010-03-01
+Author: Richard Clark - http://richclarkdesign.com
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+/*    vertical-align:baseline;*/
+    background:transparent;
+}
+
+body {font-family: 'Arial','Microsoft YaHei'; line-height: 1;}
+:focus {outline: 1;}
+
+article,aside,canvas,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section,summary {display: block;}
+
+ul {list-style: none;}
+blockquote, q {quotes: none;}
+blockquote:before, blockquote:after,
+q:before, q:after { content:'';  content: none;}
+
+a { margin: 0; padding: 0; border: 0; font-size: 100%; vertical-align: baseline; background: transparent; text-decoration: none;}
+a {blr: expression(this.onFocus=this.blur())}/*去掉a标签的虚线框，避免出现奇怪的选中区域*/
+
+ins {background-color: #ff9; color: #000; text-decoration: none;}
+mark {background-color: #ff9; color: #000; font-style: initial; font-weight: bold;}
+del {text-decoration: line-through;}
+abbr[title], dfn[title] { border-bottom: 1px dotted #000;  cursor: help;}
+table { border-collapse: collapse; border-spacing: 0;}
+hr { display: block; height: 1px; border: 0; border-top: 1px solid #cccccc; margin: 1em 0; padding: 0;}
+input, select { vertical-align: middle;}
+.none {display: none;}
+
+/***********布局开始**************/
+.fl { float: left; }
+.fr { float: right; }
+.clear { clear: both; }
+img { max-width: 100%; }
+.wrap { max-width: 100%; }
+body { background: #fff;}
+
+.top {background: #fff url(../images/top_bg1.png) center top no-repeat; height: 135px; width: 100%; border-bottom: #d9d9d9 solid 5px; border-top: #1c3866 solid 20px;}
+.head { max-width: 1200px; height: 140px; margin: 0 auto; /*display: inline-block;*/ position: relative;}
+.logo { width: 262px; height: 92px; float: left; margin-left: 0px; margin-top: 25px; /*top: 10px; left: 40px; position: absolute; z-index: 99;*/}
+.header {float: right; width: 100px;}
+.header img {width: 70px; height: 70px; border-radius: 40px; border: #d9d9d9 solid 5px; margin: 10px 10px;}
+.header span { font-style: initial; font-family: Arial, Helvetica, sans-serif; font-size: 20px; color: #363636; text-align: center; display: block;}
+
+.main {background: #fff url(../images/bg1.jpg) center top no-repeat; height: 700px; width: 100%; float: left;}
+.main .con {max-width: 1280px; height: auto; margin: 0 auto;}
+
+.main .con .title {max-width: 1280px; height: 72px; margin: 0 auto; background: #1c3866; margin-top: 36px; font-family: Arial, Helvetica, sans-serif; font-size: 24px; color: #fff;}
+.main .con .title .tit {float: left; height: 72px; width: 320px; font-size: 26px; color: #fff; line-height: 72px; text-align: left; text-indent: 50px; background: #1c3866; font-style: initial;}
+.main .con .title .type {height: 72px; width: 600px; background: #C2252E; float: left; text-indent: 195px; font-size: 26px; line-height: 72px; font-style: initial;}
+.main .con .title .exit {float: right; background: #c2252e url(../images/exit1.jpg) center top no-repeat;  height: 72px; width: 360px; font-size: 26px; color: #fff; line-height: 72px; text-align: right;}
+.main .con .title .exit a { color: #fff; line-height: 72px; margin-right: 50px; text-transform: uppercase; float: right;}
+.main .con .title .exit .exit_img {float: right; margin-top: 18px; margin-right: 15px}
+
+.main .con .content .msg_img {float: left; margin: 40px 0 -20px 50px;}
+.main .con .content {max-width: 1280px; min-height: 510px; margin: 0 auto; background: rgba(244,244,244,0.93); font-family: Arial, Helvetica, sans-serif; font-size: 24px; color: #fff; position: relative;}
+.main .con .content .wel {float: left; text-indent: 50px; font-family: Arial, Helvetica, sans-serif; font-size: 20px; color: #363636; font-style: initial; line-height: 60px; margin: 60px 0 0 0;}
+.main .con .content .txt {float: left; padding: 50px;  font-family: Arial, Helvetica, sans-serif; font-size: 15px; color: #363636; font-style: initial; line-height: 30px; display: block; width: 1180px;}
+.main .con .content .time {float: left; padding: 30px 50px;  font-family: Arial, Helvetica, sans-serif; font-size: 20px; color: #363636; font-style: initial; line-height: 30px; display: block; width: 1180px; text-align: center;}
+.main .con .content .sel {float: left; padding-left: 50px;}
+.main .con .content .input {float: left; margin-right: 5px;}
+.main .con .content .seltxt {float: left; font-size: 14px; color: #363636; font-style: initial; margin-top: 2px;}
+.main .con .content .button {background: url(../images/start.jpg) center top no-repeat; height: 48px; width: 156px; position: absolute; right: 50px; bottom: 50px; border: 0; font-size: 26px; color: #fff; line-height: 48px; text-align: center;}
+.main .con .content .button a { color: #fff; line-height: 48px;}
+
+.main .con .content .video {float: left; margin: 0px 100px 0 300px; width: 240px; height: 280px; line-height: 280px; text-align: center; background: #c9252d;}
+.main .con .content .video1 {float: left; margin: 0px 300px 0 100px;  width: 240px; height: 280px; line-height: 280px; text-align: center; background: #1c3866;}
+
+.main .con .content .wel_header {width: 280px; height: 280px; border: #c2252e solid 10px; border-radius: 150px; left: 50%; position: absolute; margin-left: -150px;}
+
+.main .con .footer {width: 100%; height: 40px; margin-top: 30px; float: left;}
+.main .con .footer p{text-align: center; font-size: 14px; color: #595959; line-height: 40px;}
+
+
+/*su add 2018-08-30*/
+/*倒计时样式*/
+.count-down{
+	float: right;
+	margin-top: 20px;
+	margin-right: 50px;
+	color:#1c3866;
+}
+/* 按钮加上鼠标手 */
+.main .con .content .button {cursor: pointer;}
+.main .con .content .sel {width: 100%; margin-top: 5px;}
+
+/* chen add 2018-09-03 */
+.last-answer{
+    margin-bottom: 170px;
+    width: 100%;
+}
+.before-last-answer{
+    margin-bottom: 8px;
+    width: 100%;
+}
+
+/* chen add 2018-09-05*/
+._select_item>p {
+    display: inline;
+}
+._timu {
+    margin-bottom: 15px;
+}
+._timu>span, ._timu>p {
+    font-style: initial;
+    font-family: "Open Sans", Arial, "Helvetica Neue", Helvetica, sans-serif !important;
+    font-weight: 500;
+}
+.el-radio+.el-radio {
+    margin-left: 0px !important;
+}
+.content-padding-50 {
+    padding-top: 50px;
+}
+.content-padding-50>span {
+    font-size: 18px !important;
+    /*font-weight: bold;*/
+}
+.content-subject {
+    margin-left: 200px;
+}
+.content-read-subject {
+    margin-left: 100px;
+    margin-bottom: 40px;
+}
+.content-read-subject-detail {
+    margin-bottom: 40px !important;
+}
+.width-100-percent {
+    width: 100%
+}
+.subject-title {
+    font-size: 20px !important;
+    font-weight: bold !important;
+    padding: 0px !important;
+    border-bottom: 1px solid #d9d9d9 !important;
+    padding-bottom: 15px !important;
+    width: 80% !important;
+}
+.subject-fill-in-answer {
+    display: block;
+    float: left;
+    width: 500px;
+    height: 100px;
+    margin-top: 20px;
+}
+.title-type {
+    padding: 36px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    color: #363636;
+    font-style: initial;
+    line-height: 30px;
+    display: block;
+    width: 1180px;
+}
+.font-size-18 {
+    font-size: 18px !important;
+}
+.font-size-16 {
+    font-size: 16px !important;
+}
+.font-size-20 {
+    font-size: 20px !important;
+}
+.main .con .content .txt {
+    color: black !important;
+}
+
+.MJXc-TeX-main-R {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+.el-radio-group {
+    min-width: 220px;
+    float: left;
+}
